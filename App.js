@@ -134,7 +134,7 @@ export default function App() {
               (ele) =>
                 "Price: " +
                 ele.Price.price +
-                " Discounted Price: " +
+                " | Discounted Price: " +
                 ele.DiscountedPrice.discountedPrice +
                 " \n"
             )}
