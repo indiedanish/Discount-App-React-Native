@@ -7,7 +7,8 @@
 
 
 <img height = "600px" src="https://github.com/indiedanish/discount-app/blob/main/Image.jpeg" />
+<img height = "600px" src="https://github.com/indiedanish/Discount-App-React-Native/blob/main/Image2.jpeg " />
 
- 
-[Screenshot](https://github.com/indiedanish/discount-app/blob/main/Image.jpeg)
+
+
 
