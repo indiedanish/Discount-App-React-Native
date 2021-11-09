@@ -30,11 +30,11 @@ export default function App() {
         
         >  </TextInput>
 
-      <Text>{error}</Text>
+      <Text style={{margin:20}}>{error}</Text>
 
       <Text>  You Save:  {price-discountedPrice} </Text>
 
-      <Text> Final Price:  {discountedPrice} </Text>
+      <Text  > Final Price:  {discountedPrice} </Text>
 
       
       <TouchableOpacity onPress={()=> {
@@ -45,7 +45,7 @@ export default function App() {
    
   
       }  } > 
-        <Text style={{borderWidth: 2 , padding:10, color: 'white' , backgroundColor: 'black'}} >Calculate</Text>
+        <Text style={{borderWidth: 2 , marginTop:10, padding:10, color: 'white' , backgroundColor: 'black'}} >Calculate</Text>
          </TouchableOpacity>
 
       <StatusBar style="auto" />
