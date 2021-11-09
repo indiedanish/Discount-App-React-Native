@@ -17,10 +17,18 @@ export default function App() {
       <TextInput style={{borderWidth: 2  , width:300 , marginBottom: 20}} 
       onChangeText={(value)=> {setPrice(value)
       setError("")
+       return;
       }} >  </TextInput>
 
       <Text>Enter Discount:  </Text>
-      <TextInput style={{borderWidth: 2  , width:300}} onChangeText={(value)=> {setDiscount(value)}}>  </TextInput>
+      <TextInput style={{borderWidth: 2  , width:300}} onChangeText={(value)=> {
+        
+        setDiscount(value)
+        setError("")
+        return;
+      }}
+        
+        >  </TextInput>
 
       <Text>{error}</Text>
 
